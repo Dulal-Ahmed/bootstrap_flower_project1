@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Demo | Scholz - Tautz | Ihr Blumenhaus und Gartenbau in Lauchringen</title>
+</head>
+<body>
+ <!-- body bg section  -->
+ <div class="header-bg"></div>
+
+ <!-- header section  -->
+ <div class="header" id="header">
+  <div class="sub-header">
+   <div class="log-btn">
+    <div class="logo">
+        <img style="cursor: pointer;" src="./img/logo.png" alt="logo">
+       </div>
+       <div class="button">
+        <button>GARTENBAU</button>
+        <button>KONTACT</button>
+       </div>
+   </div>
+   <div class="menu" id="Menu">
+    <div class="drop-down">
+    <a href="#">INFORMATION</a>
+    <div class="sub-menu">
+        <a href="#">wo wir sind...</a>
+        <a href="#">wann wir geoffnet gaben</a>
+        <a href="#">wir sind...</a>
+        <a href="#">wie sieht's denn hier schon wieder aus?!</a>
+    </div>
+   </div>
+   <div class="drop-down2">
+    <a href="#">ANGEBOT</a>
+    <div class="sub-menu2">
+        <a href="#">blumen</a>
+        <a href="#">pflanzen</a>
+        <a href="#">dunger</a>
+        <a href="#">deko</a>
+        <a href="#">hochzeiten</a>
+        <a href="#">beerdigungen</a>
+        <a href="#">gartenbau</a>
+    </div>
+</div>
+    <a href="#">KUNDEN</a>
+    <a href="#">BESTELLUNG</a>
+    <a href="#">SHOP</a>
+   </div>
+
+<!-- mobile menu  -->
+<div class="mob-parent">
+    <div class="mob-menu" id="mobMenu">
+        <div class="drop-down">
+        <a href="#" class="pb-8">INFORMATION</a>
+        <div class="msub-menu">
+            <a href="#" onclick="myHidden()">wo wir sind...</a>
+            <a href="#" onclick="myHidden()">wann wir geoffnet gaben</a>
+            <a href="#" onclick="myHidden()">wir sind...</a>
+            <a href="#" onclick="myHidden()">wie sieht's denn hier schon wieder aus?!</a>
+        </div>
+       </div>
+       <div class="drop-down2">
+        <a href="#">ANGEBOT</a>
+        <div class="msub-menu2">
+            <a href="#" onclick="myHidden()">blumen</a>
+            <a href="#" onclick="myHidden()">pflanzen</a>
+            <a href="#" onclick="myHidden()">dunger</a>
+            <a href="#" onclick="myHidden()">deko</a>
+            <a href="#" onclick="myHidden()">hochzeiten</a>
+            <a href="#" onclick="myHidden()">beerdigungen</a>
+            <a href="#" onclick="myHidden()">gartenbau</a>
+        </div>
+    </div>
+        <a href="#" onclick="myHidden()">KUNDEN</a>
+        <a href="#" onclick="myHidden()">BESTELLUNG</a>
+        <a href="#" onclick="myHidden()">SHOP</a>
+       </div>
+       <div class="button">
+        <button>GARTENBAU</button>
+        <button>KONTACT</button>
+       </div>
+       <div class="toggle" onclick="myFunction(this)">
+        <div class="icon1"></div>
+        <div class="icon2"></div>
+        <div class="icon3"></div>
+        </div>
+</div>
+
+  </div>  
+ </div>
+
+<!-- body heading  -->
+<h1 class="text-center px-2">Für Blumen immer die richtige Adresse</h1>
+
+<!-- first section -->
+<div class="first-section container bg-white pb-5 mb-5">
+  <div class="d-flex flex-column ps-5 py-5 ms-lg-5">
+    <h5 style="font-weight: 400;" class="mt-5 mb-4">Liebe Blumenfreunde,</h5>
+    <p class="fs-5">neu und ganz bequem. Bestellen Sie Blumen zum Abholen (bei uns im Laden), oder als <br> Lieferservice direkt über unseren neuen Online-Shop.</p>
+    <button class="btn text-white py-2 d-flex align-items-center justify-content-evenly fs-lg" style="background-color: #D39B36;width: 221px;font-weight: 700;">
+      <img src="./img/shopping-cart-solid.svg" width="27" /> SICHER ZUM SHOP
+  </button>
+    <h5 class="my-3 pt-3">Wir freuen uns Sie wieder persönlich in unserem Geschäft begrüssen zu dürfen.</h5>
+    <h5>Benjamin Scholz-Tautz & Manuel Spitznagel <br> mit dem ganzen Team</h5>
+  </div>
+  <div class="ms-5 me-3 mb-5" style="width:auto; height: 1px;background-color: black;"></div>
+  <div class="fs-img d-flex flex-column mx-5 mb-lg-4">
+    <div class="d-flex flex-column flex-lg-row mb-4 mb-lg-5">
+      <img src="./img/sec1-img1.jpg" alt="flower">
+      <img class="my-4 my-lg-0 mx-lg-5" src="./img/sec1-img2.jpg" alt="flower">
+      <img src="./img/sec1-img3.jpg" alt="flower">
+    </div>
+    <div class="d-flex flex-column flex-lg-row gap-4 gap-lg-5">
+      <img src="./img/sec1-img4.jpg" alt="flower">
+      <img src="./img/sec1-img5.jpg" alt="flower">
+    </div>
+  </div>
+</div>
+
+<!-- second section -->
+<div class="second-section container d-flex justify-content-between gap-2 gap-lg-4" style="margin: 80px auto 100px;">
+  <div class=" bg-white text-dark  d-flex flex-column align-items-center justify-content-evenly ">
+    <img src="./img/teasericon-1.png"  /> <p class="text-center">Information</p>
+</div>
+<div class=" bg-white text-dark  d-flex flex-column align-items-center justify-content-evenly ">
+  <img src="./img/teasericon-2.png"  /> <p class="text-center">Angebot</p>
+</div>
+<div class=" bg-white text-dark  d-flex flex-column align-items-center justify-content-evenly ">
+  <img src="./img/teasericon-3.png"  /> <p class=" text-center">Kunden</p>
+</div>
+<div class=" bg-white text-dark  d-flex flex-column align-items-center justify-content-evenly ">
+  <img src="./img/teasericon- 4.png"  /> <p class=" text-center">Bestellung</p>
+</div>
+</div>
+
+<!-- section three -->
+<div class="section-3 container">
+<h4 class="text-white">Unsere neusten Kunden...</h4>
+
+<div class="d-flex flex-column flex-lg-row gap-1 gap-lg-5">
+  <div class="same">
+    <div><img src="./img/sec-3-img1.jpg" alt="person"></div>
+    <div class="txt">
+      <h4>NAME</h4>
+      <h4 class="txt-child">TITLE</h4>
+    </div>
+  </div>
+  <div class="same">
+    <div><img src="./img/sec-3-img2.jpg" alt="person"></div>
+    <div class="txt">
+      <h4>NAME</h4>
+      <h4 class="txt-child">TITLE</h4>
+    </div>
+  </div>
+</div>
+
+<div class="d-flex flex-column flex-lg-row gap-1 gap-lg-5">
+  <div class="same">
+    <div><img src="./img/sec-3-img3.jpg" alt="person"></div>
+    <div class="txt">
+      <h4>NAME</h4>
+      <h4 class="txt-child">TITLE</h4>
+    </div>
+  </div>
+  <div class="same">
+    <div><img src="./img/sec-3-img4.jpg" alt="person"></div>
+    <div class="txt">
+      <h4>NAME</h4>
+      <h4 class="txt-child">TITLE</h4>
+    </div>
+  </div>
+</div>
+
+<div class="d-flex flex-column flex-lg-row gap-1 gap-lg-5">
+  <div class="same">
+    <div><img src="./img/sec-3-img5.jpg" alt="person"></div>
+    <div class="txt">
+      <h4>NAME</h4>
+      <h4 class="txt-child">TITLE</h4>
+    </div>
+  </div>
+  <div class="same">
+    <div><img src="./img/sec-3-img6.jpg" alt="person"></div>
+    <div class="txt">
+      <h4>NAME</h4>
+      <h4 class="txt-child">TITLE</h4>
+    </div>
+  </div>
+</div>
+
+<div class="d-flex flex-column flex-lg-row gap-1 gap-lg-5">
+  <div class="same">
+    <div><img src="./img/sec-3-img7.jpg" alt="person"></div>
+    <div class="txt">
+      <h4>NAME</h4>
+      <h4 class="txt-child">TITLE</h4>
+    </div>
+  </div>
+  <div class="same">
+    <div><img src="./img/sec-3-img8.jpg" alt="person"></div>
+    <div class="txt">
+      <h4>NAME</h4>
+      <h4 class="txt-child">TITLE</h4>
+    </div>
+  </div>
+</div>
+
+<div class="d-flex flex-column flex-lg-row gap-1 gap-lg-5">
+  <div class="same">
+    <div><img src="./img/sec-3-img9.jpg" alt="person"></div>
+    <div class="txt">
+      <h4>NAME</h4>
+      <h4 class="txt-child">TITLE</h4>
+    </div>
+  </div>
+  <div class="same">
+    <div><img src="./img/sec-3-img10.jpg" alt="person"></div>
+    <div class="txt">
+      <h4>NAME</h4>
+      <h4 class="txt-child">TITLE</h4>
+    </div>
+  </div>
+</div>
+
+<div class="d-flex flex-column flex-lg-row gap-1 gap-lg-5" style="margin-bottom: 50px;">
+  <div class="same">
+    <div><img src="./img/sec-3-img11.jpg" alt="person"></div>
+    <div class="txt">
+      <h4>NAME</h4>
+      <h4 class="txt-child">TITLE</h4>
+    </div>
+  </div>
+  <div class="same">
+    <div><img src="./img/sec-3-img12.jpg" alt="person"></div>
+    <div class="txt">
+      <h4>NAME</h4>
+      <h4 class="txt-child">TITLE</h4>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!-- section four -->
+<div class="sec-4 container bg-white text-dark p-5">
+  <h3 class="text-center">Blumen bestellen</h3>
+  <h5 class="text-center">Unser LIEFERSERVICE / Selbstabholung steht ihnen nach wie vor sehr flexibel zur Verfügung.</h5>
+  <div class="d-flex flex-column flex-lg-row gap-5 py-5 align-items-center">
+    <div class="cards rounded text-white d-flex flex-column align-items-center">
+      <h3 class="">Online bestellen</h3>
+      <img src="./img/sec-4-img1.jpg" class="cimg py-3" alt="Online">
+        <h4 class="card-text text-center mb-4">Neu und ganz bequem. Bestellen Sie Blumen zum Abholen direkt im Laden, oder als Lieferservice direkt über unseren neuen Online-Shop.</h4>
+        <button class="btn text-white py-2 d-flex align-items-center justify-content-evenly fs-lg" style="background-color: #D39B36;width: 221px;font-weight: 700;">
+          <img src="./img/shopping-cart-solid.svg" width="27" /> SICHER ZUM SHOP
+      </button>
+      
+    </div>
+
+    <div class="cards rounded text-white d-flex flex-column align-items-center">
+      <h3 class="">Telefon</h3>
+      <img src="./img/sec-4-img2.jpg" class="cimg py-3" alt="Online">
+        <h4 class="card-text text-center mb-lg-5 pb-4">Telefonische Bestellungen nehmen wir gerne unter folgender Nummer entgegen.</h4>
+        <button class="btn text-white py-2 d-flex align-items-center justify-content-evenly fs-lg" style="background-color: #D39B36;width: 221px;font-weight: 700;">
+          <img src="./img/phone-rotary-solid.svg" width="27" /> 07741 / 5284
+      </button>
+      
+    </div>
+  </div>
+</div>
+
+
+<!-- footer section -->
+<div class="foot-sec container-fluid bg-white" style="margin-top: 100px;">
+  <div class="container">
+  <div class="d-flex">
+    <div>
+      <h3>BLUMENHAUS SCHOLZ-TAUTZ</h3>
+    <h5>HAUPTSTR. 52</h5>
+    <h5>79787 LAUCHRINGEN</h5>
+    </div>
+    <div>
+      <div>
+        <p>HOCHZEITSFLORISTIK</p>
+        <span></span>
+        <p>TRAUERFLORISTIK</p>
+        <span></span>
+        <p>SCHNITTBLUMEN NACH SAISON</p>
+        <span></span>
+      </div>
+      <div>
+        <p>GESCHENKIDEEN</p>
+        <span></span>
+        <p>ZIMMER.- UND TERASSENPFLANZEN</p>
+        <span></span>
+        <p>EVENT.- UND TISCHDEKO</p>
+        <span></span>
+      </div>
+      <div>
+        <p>DÜNGER, ERDE, PESTIZIDE, FUNGIZIDE</p>
+        <span></span>
+        <p>KERAMIK, GLAS + KUNSTSTOFFGEFÄSSE</p>
+      </div>
+    </div>
+  </div>
+  <div><h4>© COPYRIGHT 2023 - IMPRESSUM | DATENSCHUTZ</h4></div>
+</div>
+</div>
+
+
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("header").style.marginTop = "-120px";
+    document.getElementById("Menu").style.height = "200px";
+    document.getElementById("Menu").style.paddingTop = "16px";
+  } else {
+    document.getElementById("header").style.marginTop = "0px";
+    document.getElementById("Menu").style.height = "auto";
+    document.getElementById("Menu").style.paddingTop = "12px";
+  }
+}
+
+
+// mobileMenu
+const mobileMenu = document.querySelector('.mob-menu');
+const removeClass = document.querySelector('.toggle');
+function myFunction(x) {
+  x.classList.toggle("change");
+  if(mobileMenu.style.width === "40%"){
+    mobileMenu.style.width = "0%";
+  }else{
+    mobileMenu.style.width = "40%"
+  }
+}
+
+function myHidden() {
+  mobileMenu.style.width = "0%";
+  removeClass.classList.remove('change');
+}
+
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+</body>
+</html>
